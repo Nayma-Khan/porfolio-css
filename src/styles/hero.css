@@ -1,0 +1,28 @@
+/* hero.css */
+
+/* Assuming you're using Tailwind CSS, these styles will override or extend existing Tailwind classes */
+
+.hero {
+  /* Add any additional styles for the overall hero section */
+  background-color: #f0f0f0; /* Example background color */
+  padding: 4rem;
+}
+
+/* Customize the image container */
+.image-container {
+  /* Add specific styles for the image container */
+  text-align: center; /* Center the image */
+}
+
+/* Customize the animation using AOS classes */
+.aos-zoom-in {
+  /* Customize the zoom-in animation */
+  transition: transform 0.5s ease-in-out;
+}
+
+.aos-flip-right {
+  /* Customize the flip-right animation */
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Add more specific styles for other elements as needed */

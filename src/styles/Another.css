@@ -1,0 +1,85 @@
+/* Another.css */
+
+/* Section container */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1rem;
+  }
+  
+  /* Headings */
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  
+  /* Flex container for skill cards */
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1.5rem;
+  }
+  
+  /* Skill card styles */
+  .border {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  
+  .border:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Image styling */
+  .image-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Text styling */
+  .font-serif {
+    font-family: "Times New Roman", serif;
+    color: #1a202c;
+  }
+  
+  /* Font sizing and padding adjustments for skills */
+  .text-lg {
+    font-size: 1.125rem;
+  }
+  
+  .font-bold {
+    font-weight: bold;
+  }
+  
+  /* Responsive adjustments */
+  @media (min-width: 768px) {
+    .text-5xl {
+      font-size: 3rem;
+    }
+  
+    .flex {
+      gap: 2rem;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .mt-16 {
+      margin-top: 4rem;
+    }
+  
+    .lg\:mt-28 {
+      margin-top: 7rem;
+    }
+  }
+  
